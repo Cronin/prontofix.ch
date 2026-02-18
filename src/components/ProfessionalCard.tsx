@@ -22,19 +22,19 @@ export function ProfessionalCard({
 }) {
   return (
     <div className="rounded border border-neutral-200 p-5 hover:border-neutral-400">
-      <div className="flex items-start justify-between">
-        <div>
-          <h3 className="font-semibold text-black">{pro.company}</h3>
+      <div className="flex items-start justify-between gap-2">
+        <div className="min-w-0">
+          <h3 className="font-semibold text-black truncate">{pro.company}</h3>
           <p className="mt-0.5 text-sm text-neutral-500">{pro.name}</p>
         </div>
-        <div className="flex flex-col items-end gap-1">
+        <div className="flex shrink-0 flex-col items-end gap-1">
           {pro.verified && (
-            <span className="rounded bg-green-50 px-2 py-0.5 text-xs font-medium text-green-700">
+            <span className="whitespace-nowrap rounded bg-green-50 px-2 py-0.5 text-xs font-medium text-green-700">
               {t[lang]["service.verified"]}
             </span>
           )}
           {pro.emergency && (
-            <span className="rounded bg-red-50 px-2 py-0.5 text-xs font-medium text-red-700">
+            <span className="whitespace-nowrap rounded bg-red-50 px-2 py-0.5 text-xs font-medium text-red-700">
               {t[lang]["service.emergency"]}
             </span>
           )}
