@@ -71,6 +71,9 @@ export const t: Record<Locale, Record<string, string>> = {
     "canton.subtitle": "Alle Städte und Dienstleistungen im",
     "canton.cities": "Städte im",
     "canton.allCantons": "Alle Kantone",
+    // Popular
+    "popular.title": "Beliebte Suchen",
+    "popular.subtitle": "Die meistgesuchten Handwerker in der Schweiz",
   },
   fr: {
     "nav.services": "Services",
@@ -128,6 +131,8 @@ export const t: Record<Locale, Record<string, string>> = {
     "canton.subtitle": "Toutes les villes et services dans le",
     "canton.cities": "Villes dans le",
     "canton.allCantons": "Tous les cantons",
+    "popular.title": "Recherches populaires",
+    "popular.subtitle": "Les artisans les plus recherchés en Suisse",
   },
   it: {
     "nav.services": "Servizi",
@@ -185,5 +190,7 @@ export const t: Record<Locale, Record<string, string>> = {
     "canton.subtitle": "Tutte le città e i servizi nel",
     "canton.cities": "Città nel",
     "canton.allCantons": "Tutti i cantoni",
+    "popular.title": "Ricerche popolari",
+    "popular.subtitle": "Gli artigiani più cercati in Svizzera",
   },
 };

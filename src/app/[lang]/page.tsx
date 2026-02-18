@@ -76,6 +76,64 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* Popular combinations */}
+      <section className="border-b border-neutral-200 py-12">
+        <div className="mx-auto max-w-6xl px-6">
+          <h2 className="text-lg font-bold text-black">{t[lang]["popular.title"]}</h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {(() => {
+              const popularCombos: Record<Locale, { service: string; city: string; label: string }[]> = {
+                de: [
+                  { service: "plumber", city: "zuerich", label: "Sanitär Zürich" },
+                  { service: "electrician", city: "zuerich", label: "Elektriker Zürich" },
+                  { service: "locksmith", city: "bern", label: "Schlüsseldienst Bern" },
+                  { service: "plumber", city: "basel", label: "Sanitär Basel" },
+                  { service: "heating", city: "luzern", label: "Heizung Luzern" },
+                  { service: "cleaning", city: "zuerich", label: "Reinigung Zürich" },
+                  { service: "electrician", city: "bern", label: "Elektriker Bern" },
+                  { service: "painter", city: "winterthur", label: "Maler Winterthur" },
+                  { service: "locksmith", city: "zuerich", label: "Schlüsseldienst Zürich" },
+                  { service: "plumber", city: "st-gallen", label: "Sanitär St. Gallen" },
+                ],
+                fr: [
+                  { service: "plumber", city: "geneve", label: "Plombier Genève" },
+                  { service: "electrician", city: "lausanne", label: "Électricien Lausanne" },
+                  { service: "locksmith", city: "geneve", label: "Serrurier Genève" },
+                  { service: "plumber", city: "lausanne", label: "Plombier Lausanne" },
+                  { service: "heating", city: "fribourg", label: "Chauffage Fribourg" },
+                  { service: "cleaning", city: "geneve", label: "Nettoyage Genève" },
+                  { service: "electrician", city: "geneve", label: "Électricien Genève" },
+                  { service: "painter", city: "lausanne", label: "Peintre Lausanne" },
+                  { service: "locksmith", city: "lausanne", label: "Serrurier Lausanne" },
+                  { service: "plumber", city: "neuchatel", label: "Plombier Neuchâtel" },
+                ],
+                it: [
+                  { service: "plumber", city: "lugano", label: "Idraulico Lugano" },
+                  { service: "electrician", city: "lugano", label: "Elettricista Lugano" },
+                  { service: "locksmith", city: "bellinzona", label: "Fabbro Bellinzona" },
+                  { service: "plumber", city: "bellinzona", label: "Idraulico Bellinzona" },
+                  { service: "heating", city: "lugano", label: "Riscaldamento Lugano" },
+                  { service: "cleaning", city: "locarno", label: "Pulizia Locarno" },
+                  { service: "electrician", city: "bellinzona", label: "Elettricista Bellinzona" },
+                  { service: "painter", city: "lugano", label: "Imbianchino Lugano" },
+                  { service: "locksmith", city: "lugano", label: "Fabbro Lugano" },
+                  { service: "plumber", city: "locarno", label: "Idraulico Locarno" },
+                ],
+              };
+              return popularCombos[lang].map((combo) => (
+                <Link
+                  key={combo.label}
+                  href={`/${lang}/${combo.service}/${combo.city}`}
+                  className="rounded border border-neutral-200 px-3 py-1.5 text-sm text-neutral-600 hover:border-black hover:text-black"
+                >
+                  {combo.label}
+                </Link>
+              ));
+            })()}
+          </div>
+        </div>
+      </section>
+
       {/* Services */}
       <section id="services" className="border-b border-neutral-200 py-16">
         <div className="mx-auto max-w-6xl px-6">

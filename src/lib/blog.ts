@@ -455,4 +455,586 @@ Gli artigiani in Svizzera devono dare 2 anni di garanzia sul lavoro (norma SIA 1
     date: "2026-01-28",
     readingTime: 6,
   },
+  {
+    slug: "electrical-safety-home",
+    title: {
+      de: "Elektrosicherheit im Haushalt: 7 Regeln, die Leben retten",
+      fr: "Sécurité électrique à la maison : 7 règles qui sauvent des vies",
+      it: "Sicurezza elettrica in casa: 7 regole che salvano la vita",
+    },
+    excerpt: {
+      de: "Veraltete Elektroinstallationen sind eine unterschätzte Gefahr. Erfahren Sie, wann Sie einen Elektriker rufen sollten.",
+      fr: "Les installations électriques vétustes sont un danger sous-estimé. Découvrez quand faire appel à un électricien.",
+      it: "Gli impianti elettrici obsoleti sono un pericolo sottovalutato. Scopri quando chiamare un elettricista.",
+    },
+    content: {
+      de: `## Wann sind Elektroinstallationen gefährlich?
+
+In der Schweiz werden viele Wohnungen mit veralteten Installationen bewohnt. Typische Warnsignale:
+
+- **Flackernde Lichter**: Können auf lose Verbindungen hinweisen
+- **Warme Steckdosen**: Ein Zeichen für Überlastung
+- **Häufig auslösende Sicherungen**: Die Anlage ist überlastet
+- **Fehlender FI-Schutzschalter**: In Altbauten oft nicht vorhanden
+- **Vergilbte oder brüchige Kabel**: Isolierung ist veraltet
+
+## Die 7 goldenen Regeln
+
+### 1. Keine Eigenreparaturen
+Elektroarbeiten dürfen in der Schweiz nur von zugelassenen Elektrikern ausgeführt werden. Eigenarbeiten sind nicht nur gefährlich, sondern auch illegal.
+
+### 2. FI-Schutzschalter nachrüsten
+Ein Fehlerstromschutzschalter (FI/RCD) kann Leben retten. Kosten: CHF 200–500 für die Installation.
+
+### 3. Regelmässige Kontrolle
+Alle 10–20 Jahre sollte eine Elektrokontrolle durchgeführt werden. In vielen Kantonen ist dies Pflicht.
+
+### 4. Steckdosen nicht überlasten
+Verwenden Sie keine Mehrfachsteckleisten an Mehrfachsteckleisten. Maximale Belastung pro Steckdose beachten.
+
+### 5. Wasser und Strom trennen
+Im Badezimmer und in der Küche gelten besondere Schutzzonen. Nur zugelassene Geräte verwenden.
+
+### 6. Rauchmelder installieren
+Obwohl in der Schweiz nicht überall obligatorisch, sind sie eine günstige Lebensversicherung.
+
+### 7. Notrufnummer kennen
+Bei Stromschlag: 144 (Sanität) anrufen. Bei Kabelbrand: 118 (Feuerwehr).
+
+## Was kostet ein Elektro-Check?
+
+| Leistung | Kosten |
+|----------|--------|
+| Elektrokontrolle Wohnung | CHF 300–600 |
+| FI-Schutzschalter nachrüsten | CHF 200–500 |
+| Steckdose ersetzen | CHF 80–150 |
+| Komplettsanierung Altbau | CHF 5'000–15'000 |`,
+      fr: `## Quand les installations électriques deviennent-elles dangereuses ?
+
+En Suisse, de nombreux logements ont des installations vétustes. Signaux d'alerte typiques :
+
+- **Lumières qui clignotent** : Peuvent indiquer des connexions desserrées
+- **Prises chaudes** : Signe de surcharge
+- **Fusibles qui sautent fréquemment** : L'installation est surchargée
+- **Absence de disjoncteur différentiel** : Souvent absent dans les anciens bâtiments
+- **Câbles jaunis ou cassants** : L'isolation est obsolète
+
+## Les 7 règles d'or
+
+### 1. Pas de réparations soi-même
+En Suisse, seuls les électriciens agréés peuvent effectuer des travaux électriques. Les travaux par soi-même sont non seulement dangereux, mais aussi illégaux.
+
+### 2. Installer un disjoncteur différentiel
+Un interrupteur différentiel (FI/RCD) peut sauver des vies. Coût : CHF 200–500 pour l'installation.
+
+### 3. Contrôle régulier
+Un contrôle électrique devrait être effectué tous les 10–20 ans. Dans de nombreux cantons, c'est obligatoire.
+
+### 4. Ne pas surcharger les prises
+N'utilisez pas de multiprises sur des multiprises. Respectez la charge maximale par prise.
+
+### 5. Séparer eau et électricité
+Dans la salle de bain et la cuisine, des zones de protection spéciales s'appliquent.
+
+### 6. Installer des détecteurs de fumée
+Bien que pas obligatoires partout en Suisse, c'est une assurance-vie peu coûteuse.
+
+### 7. Connaître les numéros d'urgence
+En cas d'électrocution : appeler le 144 (ambulance). En cas d'incendie de câble : 118 (pompiers).
+
+## Combien coûte un contrôle électrique ?
+
+| Prestation | Coûts |
+|-----------|-------|
+| Contrôle électrique appartement | CHF 300–600 |
+| Installation disjoncteur différentiel | CHF 200–500 |
+| Remplacement prise | CHF 80–150 |
+| Rénovation complète ancien bâtiment | CHF 5'000–15'000 |`,
+      it: `## Quando gli impianti elettrici diventano pericolosi?
+
+In Svizzera, molti appartamenti hanno impianti obsoleti. Segnali d'allarme tipici:
+
+- **Luci che tremolano**: Possono indicare connessioni allentate
+- **Prese calde**: Segno di sovraccarico
+- **Fusibili che saltano frequentemente**: L'impianto è sovraccaricato
+- **Assenza di interruttore differenziale**: Spesso assente negli edifici vecchi
+- **Cavi ingialliti o fragili**: L'isolamento è obsoleto
+
+## Le 7 regole d'oro
+
+### 1. Niente riparazioni fai-da-te
+In Svizzera, solo gli elettricisti abilitati possono eseguire lavori elettrici. I lavori fai-da-te sono non solo pericolosi, ma anche illegali.
+
+### 2. Installare un interruttore differenziale
+Un interruttore differenziale (FI/RCD) può salvare la vita. Costo: CHF 200–500 per l'installazione.
+
+### 3. Controllo regolare
+Un controllo elettrico dovrebbe essere effettuato ogni 10–20 anni. In molti cantoni è obbligatorio.
+
+### 4. Non sovraccaricare le prese
+Non usare ciabatte multiple collegate tra loro. Rispettare il carico massimo per presa.
+
+### 5. Separare acqua e elettricità
+In bagno e in cucina si applicano zone di protezione speciali.
+
+### 6. Installare rilevatori di fumo
+Anche se non obbligatori ovunque in Svizzera, sono un'assicurazione sulla vita economica.
+
+### 7. Conoscere i numeri di emergenza
+In caso di elettrocuzione: chiamare il 144 (ambulanza). In caso di incendio: 118 (pompieri).
+
+## Quanto costa un controllo elettrico?
+
+| Prestazione | Costi |
+|------------|-------|
+| Controllo elettrico appartamento | CHF 300–600 |
+| Installazione interruttore differenziale | CHF 200–500 |
+| Sostituzione presa | CHF 80–150 |
+| Ristrutturazione completa edificio vecchio | CHF 5'000–15'000 |`,
+    },
+    category: "electrician",
+    date: "2026-02-12",
+    readingTime: 5,
+  },
+  {
+    slug: "cleaning-costs-guide",
+    title: {
+      de: "Reinigungskosten Schweiz: Was kostet eine professionelle Reinigung?",
+      fr: "Coûts de nettoyage en Suisse : combien coûte un nettoyage professionnel ?",
+      it: "Costi pulizia Svizzera: quanto costa una pulizia professionale?",
+    },
+    excerpt: {
+      de: "Von der Umzugsreinigung bis zur Büroreinigung: Alle Preise auf einen Blick.",
+      fr: "Du nettoyage de fin de bail au nettoyage de bureau : tous les prix en un coup d'œil.",
+      it: "Dalla pulizia di fine locazione alla pulizia uffici: tutti i prezzi a colpo d'occhio.",
+    },
+    content: {
+      de: `## Reinigungskosten in der Schweiz
+
+Die Kosten für professionelle Reinigung variieren je nach Art und Grösse. Hier eine Übersicht:
+
+### Umzugsreinigung / Endreinigung
+
+Die wichtigste Reinigung in der Schweiz — bei Auszug muss die Wohnung in einwandfreiem Zustand übergeben werden.
+
+| Wohnungsgrösse | Kosten |
+|---------------|--------|
+| 1–2 Zimmer | CHF 300–500 |
+| 3–4 Zimmer | CHF 500–900 |
+| 5+ Zimmer | CHF 800–1'500 |
+
+**Wichtig:** Viele Vermieter verlangen eine professionelle Reinigung mit Abnahmegarantie.
+
+### Regelmässige Reinigung
+
+| Häufigkeit | Kosten pro Stunde |
+|-----------|-------------------|
+| Wöchentlich | CHF 30–45 |
+| Zweiwöchentlich | CHF 35–50 |
+| Einmalig | CHF 40–55 |
+
+### Spezialreinigungen
+
+- **Fensterreinigung**: CHF 5–15 pro Fenster
+- **Teppichreinigung**: CHF 3–8 pro m²
+- **Bauendreinigung**: CHF 3–6 pro m²
+- **Grundreinigung**: CHF 40–60 pro Stunde
+
+## So sparen Sie bei der Reinigung
+
+1. Vergleichen Sie mindestens 3 Offerten
+2. Buchen Sie regelmässige statt einmalige Reinigungen
+3. Bereiten Sie die Wohnung vor (aufräumen, Möbel rücken)
+4. Wählen Sie einen lokalen Anbieter`,
+      fr: `## Coûts de nettoyage en Suisse
+
+Les coûts de nettoyage professionnel varient selon le type et la taille. Voici un aperçu :
+
+### Nettoyage de fin de bail
+
+Le nettoyage le plus important en Suisse — au déménagement, l'appartement doit être rendu en parfait état.
+
+| Taille du logement | Coûts |
+|--------------------|-------|
+| 1–2 pièces | CHF 300–500 |
+| 3–4 pièces | CHF 500–900 |
+| 5+ pièces | CHF 800–1'500 |
+
+**Important :** De nombreux propriétaires exigent un nettoyage professionnel avec garantie de réception.
+
+### Nettoyage régulier
+
+| Fréquence | Coût par heure |
+|-----------|---------------|
+| Hebdomadaire | CHF 30–45 |
+| Bimensuel | CHF 35–50 |
+| Ponctuel | CHF 40–55 |
+
+### Nettoyages spéciaux
+
+- **Nettoyage de vitres** : CHF 5–15 par fenêtre
+- **Nettoyage de tapis** : CHF 3–8 par m²
+- **Nettoyage de fin de chantier** : CHF 3–6 par m²
+- **Nettoyage en profondeur** : CHF 40–60 par heure
+
+## Comment économiser sur le nettoyage
+
+1. Comparez au moins 3 devis
+2. Optez pour un nettoyage régulier plutôt que ponctuel
+3. Préparez l'appartement (rangement, déplacement des meubles)
+4. Choisissez un prestataire local`,
+      it: `## Costi di pulizia in Svizzera
+
+I costi per la pulizia professionale variano per tipo e dimensione. Ecco una panoramica:
+
+### Pulizia di fine locazione
+
+La pulizia più importante in Svizzera — al trasloco, l'appartamento deve essere consegnato in condizioni perfette.
+
+| Dimensione alloggio | Costi |
+|--------------------|-------|
+| 1–2 locali | CHF 300–500 |
+| 3–4 locali | CHF 500–900 |
+| 5+ locali | CHF 800–1'500 |
+
+**Importante:** Molti proprietari richiedono una pulizia professionale con garanzia di accettazione.
+
+### Pulizia regolare
+
+| Frequenza | Costo all'ora |
+|-----------|--------------|
+| Settimanale | CHF 30–45 |
+| Bisettimanale | CHF 35–50 |
+| Una tantum | CHF 40–55 |
+
+### Pulizie speciali
+
+- **Pulizia vetri**: CHF 5–15 per finestra
+- **Pulizia tappeti**: CHF 3–8 per m²
+- **Pulizia fine cantiere**: CHF 3–6 per m²
+- **Pulizia a fondo**: CHF 40–60 all'ora
+
+## Come risparmiare sulla pulizia
+
+1. Confronta almeno 3 preventivi
+2. Scegli pulizie regolari invece che una tantum
+3. Prepara l'appartamento (riordina, sposta i mobili)
+4. Scegli un fornitore locale`,
+    },
+    category: "cleaning",
+    date: "2026-02-08",
+    readingTime: 4,
+  },
+  {
+    slug: "garden-maintenance-seasons",
+    title: {
+      de: "Gartenpflege im Jahresverlauf: Was wann zu tun ist",
+      fr: "Entretien du jardin au fil des saisons : quoi faire et quand",
+      it: "Manutenzione del giardino nelle stagioni: cosa fare e quando",
+    },
+    excerpt: {
+      de: "Von Frühjahrsschnitt bis Winterschutz: Der Gartenkalender für die Schweiz.",
+      fr: "De la taille de printemps à la protection hivernale : le calendrier du jardin pour la Suisse.",
+      it: "Dalla potatura primaverile alla protezione invernale: il calendario del giardino per la Svizzera.",
+    },
+    content: {
+      de: `## Gartenarbeit in der Schweiz
+
+Das Schweizer Klima stellt besondere Anforderungen an die Gartenpflege. Hier der Jahresüberblick:
+
+### Frühling (März–Mai)
+
+- **Rasen vertikutieren** und nachsäen
+- **Hecken schneiden** (vor dem Austrieb)
+- **Beete vorbereiten** und düngen
+- **Bewässerungsanlage** in Betrieb nehmen
+
+### Sommer (Juni–August)
+
+- **Regelmässig mähen** (1x pro Woche)
+- **Bewässern** in Trockenperioden (morgens oder abends)
+- **Unkraut jäten** und mulchen
+- **Rosen schneiden** nach der ersten Blüte
+
+### Herbst (September–November)
+
+- **Laub entfernen** vom Rasen
+- **Letzte Rasenmähung** im Oktober
+- **Pflanzen winterfest** machen
+- **Gartengeräte reinigen** und einlagern
+
+### Winter (Dezember–Februar)
+
+- **Schnee räumen** von Wegen und Einfahrten
+- **Winterschutz** für empfindliche Pflanzen kontrollieren
+- **Bäume schneiden** (Obstbäume im Februar)
+- **Nächste Saison planen**
+
+## Was kostet ein Gärtner?
+
+| Leistung | Kosten |
+|----------|--------|
+| Rasenmähen (pro Einsatz) | CHF 50–150 |
+| Heckenschnitt | CHF 40–80/Stunde |
+| Gartenpflege komplett | CHF 50–90/Stunde |
+| Baumpflege/Fällung | CHF 80–150/Stunde |
+| Gartengestaltung | CHF 70–120/Stunde |`,
+      fr: `## Jardinage en Suisse
+
+Le climat suisse pose des exigences particulières pour l'entretien du jardin. Voici l'aperçu annuel :
+
+### Printemps (mars–mai)
+
+- **Scarifier la pelouse** et réensemencer
+- **Tailler les haies** (avant la pousse)
+- **Préparer les massifs** et fertiliser
+- **Mettre en service l'arrosage** automatique
+
+### Été (juin–août)
+
+- **Tondre régulièrement** (1x par semaine)
+- **Arroser** en période sèche (matin ou soir)
+- **Désherber** et pailler
+- **Tailler les rosiers** après la première floraison
+
+### Automne (septembre–novembre)
+
+- **Ramasser les feuilles** de la pelouse
+- **Dernière tonte** en octobre
+- **Préparer les plantes** pour l'hiver
+- **Nettoyer les outils** et les ranger
+
+### Hiver (décembre–février)
+
+- **Déneiger** les chemins et entrées
+- **Vérifier la protection hivernale** des plantes sensibles
+- **Tailler les arbres** (fruitiers en février)
+- **Planifier la prochaine saison**
+
+## Combien coûte un jardinier ?
+
+| Prestation | Coûts |
+|-----------|-------|
+| Tonte de pelouse (par intervention) | CHF 50–150 |
+| Taille de haie | CHF 40–80/heure |
+| Entretien de jardin complet | CHF 50–90/heure |
+| Élagage/Abattage | CHF 80–150/heure |
+| Aménagement paysager | CHF 70–120/heure |`,
+      it: `## Giardinaggio in Svizzera
+
+Il clima svizzero pone esigenze particolari per la manutenzione del giardino. Ecco la panoramica annuale:
+
+### Primavera (marzo–maggio)
+
+- **Arieggiare il prato** e riseminare
+- **Potare le siepi** (prima della germogliazione)
+- **Preparare le aiuole** e concimare
+- **Mettere in funzione l'irrigazione** automatica
+
+### Estate (giugno–agosto)
+
+- **Falciare regolarmente** (1x a settimana)
+- **Irrigare** nei periodi secchi (mattina o sera)
+- **Diserbare** e pacciamare
+- **Potare le rose** dopo la prima fioritura
+
+### Autunno (settembre–novembre)
+
+- **Raccogliere le foglie** dal prato
+- **Ultima falciatura** in ottobre
+- **Preparare le piante** per l'inverno
+- **Pulire gli attrezzi** e riporli
+
+### Inverno (dicembre–febbraio)
+
+- **Spalare la neve** dai sentieri e ingressi
+- **Controllare la protezione invernale** delle piante sensibili
+- **Potare gli alberi** (fruttiferi in febbraio)
+- **Pianificare la prossima stagione**
+
+## Quanto costa un giardiniere?
+
+| Prestazione | Costi |
+|------------|-------|
+| Falciatura prato (per intervento) | CHF 50–150 |
+| Potatura siepi | CHF 40–80/ora |
+| Manutenzione giardino completa | CHF 50–90/ora |
+| Potatura/Abbattimento alberi | CHF 80–150/ora |
+| Progettazione giardino | CHF 70–120/ora |`,
+    },
+    category: "gardener",
+    date: "2026-02-01",
+    readingTime: 5,
+  },
+  {
+    slug: "pest-control-prevention",
+    title: {
+      de: "Schädlingsbekämpfung: Vorbeugen, erkennen, handeln",
+      fr: "Lutte antiparasitaire : prévenir, détecter, agir",
+      it: "Disinfestazione: prevenire, riconoscere, agire",
+    },
+    excerpt: {
+      de: "Mäuse, Wespen, Schaben: So schützen Sie Ihr Zuhause und wann Sie einen Profi brauchen.",
+      fr: "Souris, guêpes, cafards : comment protéger votre maison et quand faire appel à un professionnel.",
+      it: "Topi, vespe, scarafaggi: come proteggere la tua casa e quando chiamare un professionista.",
+    },
+    content: {
+      de: `## Häufige Schädlinge in der Schweiz
+
+### Mäuse und Ratten
+
+Besonders im Herbst suchen Nagetiere Unterschlupf in Häusern. Warnsignale:
+
+- Kot (kleine schwarze Kügelchen)
+- Nagespuren an Kabeln oder Möbeln
+- Kratzgeräusche in Wänden oder Decken
+- Nestmaterial (Papier, Stoff)
+
+### Wespen und Hornissen
+
+Im Sommer können Wespennester zur Gefahr werden. **Wichtig:** Hornissen stehen unter Naturschutz und dürfen nur von Fachleuten umgesiedelt werden.
+
+### Schaben / Kakerlaken
+
+Anzeichen für Befall:
+- Lebende oder tote Insekten (meist nachts aktiv)
+- Kotspuren (kleine schwarze Punkte)
+- Unangenehmer Geruch
+
+### Bettwanzen
+
+Ein zunehmendes Problem, auch in der Schweiz. Professionelle Bekämpfung ist fast immer notwendig.
+
+## Wann brauchen Sie einen Profi?
+
+- Bei **wiederkehrendem Befall** trotz eigener Massnahmen
+- Bei **Ratten** (gesetzliche Meldepflicht in vielen Kantonen)
+- Bei **Hornissennestern** (geschützte Art)
+- Bei **Bettwanzen** (Hausmittel reichen nicht)
+- Bei **Holzschädlingen** (Hausbock, Holzwurm)
+
+## Was kostet Schädlingsbekämpfung?
+
+| Schädling | Kosten |
+|-----------|--------|
+| Mäusebekämpfung | CHF 200–500 |
+| Wespen-/Hornissennest entfernen | CHF 150–400 |
+| Schabenbekämpfung | CHF 300–800 |
+| Bettwanzenbekämpfung | CHF 500–2'000 |
+| Rattenbekämpfung | CHF 300–1'000 |
+
+## Prävention: 5 Tipps
+
+1. **Lebensmittel verschlossen** lagern
+2. **Abfälle** regelmässig entsorgen
+3. **Risse und Spalten** abdichten
+4. **Feuchtigkeit** reduzieren (Keller, Bad)
+5. **Regelmässig kontrollieren** (Keller, Dachboden)`,
+      fr: `## Nuisibles fréquents en Suisse
+
+### Souris et rats
+
+Surtout en automne, les rongeurs cherchent refuge dans les maisons. Signaux d'alerte :
+
+- Excréments (petites boulettes noires)
+- Traces de rongement sur câbles ou meubles
+- Bruits de grattement dans les murs ou plafonds
+- Matériaux de nidification (papier, tissu)
+
+### Guêpes et frelons
+
+En été, les nids de guêpes peuvent devenir dangereux. **Important :** Les frelons sont protégés et ne peuvent être déplacés que par des professionnels.
+
+### Cafards / Blattes
+
+Signes d'infestation :
+- Insectes vivants ou morts (surtout actifs la nuit)
+- Traces d'excréments (petits points noirs)
+- Odeur désagréable
+
+### Punaises de lit
+
+Un problème croissant, aussi en Suisse. Le traitement professionnel est presque toujours nécessaire.
+
+## Quand avez-vous besoin d'un professionnel ?
+
+- En cas d'**infestation récurrente** malgré vos propres mesures
+- Pour les **rats** (obligation de déclaration dans de nombreux cantons)
+- Pour les **nids de frelons** (espèce protégée)
+- Pour les **punaises de lit** (les remèdes maison ne suffisent pas)
+- Pour les **insectes xylophages** (capricorne, ver à bois)
+
+## Combien coûte la lutte antiparasitaire ?
+
+| Nuisible | Coûts |
+|----------|-------|
+| Lutte contre les souris | CHF 200–500 |
+| Retrait nid de guêpes/frelons | CHF 150–400 |
+| Lutte contre les cafards | CHF 300–800 |
+| Lutte contre les punaises de lit | CHF 500–2'000 |
+| Lutte contre les rats | CHF 300–1'000 |
+
+## Prévention : 5 conseils
+
+1. **Stocker les aliments** dans des récipients fermés
+2. **Éliminer les déchets** régulièrement
+3. **Colmater fissures et interstices**
+4. **Réduire l'humidité** (cave, salle de bain)
+5. **Contrôler régulièrement** (cave, grenier)`,
+      it: `## Parassiti frequenti in Svizzera
+
+### Topi e ratti
+
+Soprattutto in autunno, i roditori cercano rifugio nelle case. Segnali d'allarme:
+
+- Escrementi (piccole palline nere)
+- Tracce di rosicchiamento su cavi o mobili
+- Rumori di grattamento in pareti o soffitti
+- Materiali per nidi (carta, tessuto)
+
+### Vespe e calabroni
+
+In estate, i nidi di vespe possono diventare pericolosi. **Importante:** I calabroni sono protetti e possono essere spostati solo da professionisti.
+
+### Scarafaggi / Blatte
+
+Segni di infestazione:
+- Insetti vivi o morti (soprattutto attivi di notte)
+- Tracce di escrementi (piccoli punti neri)
+- Odore sgradevole
+
+### Cimici dei letti
+
+Un problema crescente, anche in Svizzera. Il trattamento professionale è quasi sempre necessario.
+
+## Quando serve un professionista?
+
+- In caso di **infestazione ricorrente** nonostante le proprie misure
+- Per i **ratti** (obbligo di segnalazione in molti cantoni)
+- Per i **nidi di calabroni** (specie protetta)
+- Per le **cimici dei letti** (i rimedi casalinghi non bastano)
+- Per gli **insetti xilofagi** (tarlo, tarme del legno)
+
+## Quanto costa la disinfestazione?
+
+| Parassita | Costi |
+|-----------|-------|
+| Disinfestazione topi | CHF 200–500 |
+| Rimozione nido vespe/calabroni | CHF 150–400 |
+| Disinfestazione scarafaggi | CHF 300–800 |
+| Disinfestazione cimici dei letti | CHF 500–2'000 |
+| Disinfestazione ratti | CHF 300–1'000 |
+
+## Prevenzione: 5 consigli
+
+1. **Conservare gli alimenti** in contenitori chiusi
+2. **Smaltire i rifiuti** regolarmente
+3. **Sigillare crepe e fessure**
+4. **Ridurre l'umidità** (cantina, bagno)
+5. **Controllare regolarmente** (cantina, soffitta)`,
+    },
+    category: "pest-control",
+    date: "2026-01-20",
+    readingTime: 5,
+  },
 ];
