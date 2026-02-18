@@ -66,6 +66,11 @@ export const t: Record<Locale, Record<string, string>> = {
     "blog.readTime": "Min. Lesezeit",
     "blog.backToList": "Alle Artikel",
     "blog.relatedServices": "Verwandte Dienstleistungen",
+    // Canton
+    "canton.title": "Handwerker im",
+    "canton.subtitle": "Alle Städte und Dienstleistungen im",
+    "canton.cities": "Städte im",
+    "canton.allCantons": "Alle Kantone",
   },
   fr: {
     "nav.services": "Services",
@@ -119,6 +124,10 @@ export const t: Record<Locale, Record<string, string>> = {
     "blog.readTime": "min de lecture",
     "blog.backToList": "Tous les articles",
     "blog.relatedServices": "Services associés",
+    "canton.title": "Artisans dans le",
+    "canton.subtitle": "Toutes les villes et services dans le",
+    "canton.cities": "Villes dans le",
+    "canton.allCantons": "Tous les cantons",
   },
   it: {
     "nav.services": "Servizi",
@@ -172,5 +181,9 @@ export const t: Record<Locale, Record<string, string>> = {
     "blog.readTime": "min di lettura",
     "blog.backToList": "Tutti gli articoli",
     "blog.relatedServices": "Servizi correlati",
+    "canton.title": "Artigiani nel",
+    "canton.subtitle": "Tutte le città e i servizi nel",
+    "canton.cities": "Città nel",
+    "canton.allCantons": "Tutti i cantoni",
   },
 };

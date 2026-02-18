@@ -1,6 +1,6 @@
 import { type Locale, locales, t } from "@/lib/i18n";
 import { blogPosts } from "@/lib/blog";
-import { services } from "@/lib/data";
+import { services, cities } from "@/lib/data";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Link from "next/link";
@@ -298,7 +298,7 @@ export default async function BlogPostPage({
             {renderMarkdown(post.content[lang])}
           </div>
 
-          {/* Related service */}
+          {/* Related service + top city links */}
           {relatedService && (
             <div className="mt-12 rounded border border-neutral-200 p-6">
               <h3 className="text-sm font-bold text-black">
@@ -318,6 +318,20 @@ export default async function BlogPostPage({
                   </div>
                 </div>
               </Link>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {cities
+                  .sort((a, b) => b.population - a.population)
+                  .slice(0, 6)
+                  .map((c) => (
+                    <Link
+                      key={c.slug}
+                      href={`/${lang}/${relatedService.slug}/${c.slug}`}
+                      className="rounded border border-neutral-200 px-3 py-1.5 text-xs text-neutral-600 hover:border-black hover:text-black"
+                    >
+                      {relatedService.name[lang]} {c.name}
+                    </Link>
+                  ))}
+              </div>
             </div>
           )}
 

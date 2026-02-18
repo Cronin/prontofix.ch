@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n";
-import { services, cities } from "@/lib/data";
+import { services, cities, cantons } from "@/lib/data";
 import { blogPosts } from "@/lib/blog";
 
 const BASE = "https://prontofix.ch";
@@ -53,6 +53,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
           priority: 0.9,
         });
       }
+    }
+  }
+
+  // Canton pages
+  for (const lang of locales) {
+    for (const c of cantons) {
+      entries.push({
+        url: `${BASE}/${lang}/region/${c.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: 0.7,
+      });
     }
   }
 

@@ -215,6 +215,42 @@ export const cities: City[] = [
   { slug: "giubiasco", name: "Giubiasco", canton: "TI", lang: "it", population: 9000, plz: "6512" },
 ];
 
+export interface Canton {
+  code: string;
+  slug: string;
+  name: Record<Locale, string>;
+}
+
+export const cantons: Canton[] = [
+  { code: "ZH", slug: "zuerich", name: { de: "Kanton Zürich", fr: "Canton de Zurich", it: "Canton Zurigo" } },
+  { code: "BE", slug: "bern", name: { de: "Kanton Bern", fr: "Canton de Berne", it: "Canton Berna" } },
+  { code: "BS", slug: "basel-stadt", name: { de: "Kanton Basel-Stadt", fr: "Canton de Bâle-Ville", it: "Canton Basilea Città" } },
+  { code: "LU", slug: "luzern", name: { de: "Kanton Luzern", fr: "Canton de Lucerne", it: "Canton Lucerna" } },
+  { code: "SG", slug: "st-gallen", name: { de: "Kanton St. Gallen", fr: "Canton de Saint-Gall", it: "Canton San Gallo" } },
+  { code: "AG", slug: "aargau", name: { de: "Kanton Aargau", fr: "Canton d'Argovie", it: "Canton Argovia" } },
+  { code: "GR", slug: "graubuenden", name: { de: "Kanton Graubünden", fr: "Canton des Grisons", it: "Canton Grigioni" } },
+  { code: "SH", slug: "schaffhausen", name: { de: "Kanton Schaffhausen", fr: "Canton de Schaffhouse", it: "Canton Sciaffusa" } },
+  { code: "ZG", slug: "zug", name: { de: "Kanton Zug", fr: "Canton de Zoug", it: "Canton Zugo" } },
+  { code: "TG", slug: "thurgau", name: { de: "Kanton Thurgau", fr: "Canton de Thurgovie", it: "Canton Turgovia" } },
+  { code: "SO", slug: "solothurn", name: { de: "Kanton Solothurn", fr: "Canton de Soleure", it: "Canton Soletta" } },
+  { code: "BL", slug: "basel-land", name: { de: "Kanton Basel-Landschaft", fr: "Canton de Bâle-Campagne", it: "Canton Basilea Campagna" } },
+  { code: "GE", slug: "geneve", name: { de: "Kanton Genf", fr: "Canton de Genève", it: "Canton Ginevra" } },
+  { code: "VD", slug: "vaud", name: { de: "Kanton Waadt", fr: "Canton de Vaud", it: "Canton Vaud" } },
+  { code: "FR", slug: "freiburg", name: { de: "Kanton Freiburg", fr: "Canton de Fribourg", it: "Canton Friburgo" } },
+  { code: "VS", slug: "wallis", name: { de: "Kanton Wallis", fr: "Canton du Valais", it: "Canton Vallese" } },
+  { code: "NE", slug: "neuenburg", name: { de: "Kanton Neuenburg", fr: "Canton de Neuchâtel", it: "Canton Neuchâtel" } },
+  { code: "JU", slug: "jura", name: { de: "Kanton Jura", fr: "Canton du Jura", it: "Canton Giura" } },
+  { code: "TI", slug: "ticino", name: { de: "Kanton Tessin", fr: "Canton du Tessin", it: "Canton Ticino" } },
+];
+
+export function getCantonBySlug(slug: string): Canton | undefined {
+  return cantons.find((c) => c.slug === slug);
+}
+
+export function getCitiesByCanton(cantonCode: string): City[] {
+  return cities.filter((c) => c.canton === cantonCode).sort((a, b) => b.population - a.population);
+}
+
 // Generate realistic Swiss professional names per language region
 const deNames = [
   { first: "Thomas", last: "Müller" }, { first: "Daniel", last: "Keller" },

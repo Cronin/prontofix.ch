@@ -1,5 +1,6 @@
 import { type Locale, locales, t } from "@/lib/i18n";
 import { services, cities } from "@/lib/data";
+import { blogPosts } from "@/lib/blog";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Link from "next/link";
@@ -154,6 +155,42 @@ export default async function HomePage({
                   </p>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog / Latest articles */}
+      <section className="border-b border-neutral-200 py-16">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold text-black">{t[lang]["blog.title"]}</h2>
+            <Link
+              href={`/${lang}/blog`}
+              className="text-sm text-neutral-500 underline hover:text-black"
+            >
+              {t[lang]["blog.backToList"]} &rarr;
+            </Link>
+          </div>
+          <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+            {blogPosts.slice(0, 4).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/${lang}/blog/${post.slug}`}
+                className="group rounded border border-neutral-200 p-5 hover:border-black"
+              >
+                <div className="text-xs text-neutral-400">
+                  {new Date(post.date).toLocaleDateString(
+                    lang === "de" ? "de-CH" : lang === "fr" ? "fr-CH" : "it-CH"
+                  )}
+                </div>
+                <h3 className="mt-2 text-sm font-medium text-black group-hover:underline line-clamp-2">
+                  {post.title[lang]}
+                </h3>
+                <p className="mt-2 text-xs text-neutral-500 line-clamp-2">
+                  {post.excerpt[lang]}
+                </p>
+              </Link>
             ))}
           </div>
         </div>
