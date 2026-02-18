@@ -1,4 +1,10 @@
-import type { Locale } from "@/lib/i18n";
+import { type Locale, locales } from "@/lib/i18n";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
 
 export default async function LangLayout({
   children,
