@@ -3,6 +3,7 @@ import { services, cities } from "@/lib/data";
 import { blogPosts } from "@/lib/blog";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SearchForm } from "@/components/SearchForm";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -54,21 +55,7 @@ export default async function HomePage({
           <p className="mx-auto mt-4 max-w-lg text-lg text-neutral-500">
             {t[lang]["hero.subtitle"]}
           </p>
-          <div className="mx-auto mt-8 flex max-w-xl flex-col gap-3 sm:flex-row">
-            <input
-              type="text"
-              placeholder={t[lang]["hero.search.service"]}
-              className="flex-1 rounded border border-neutral-300 px-4 py-3 text-sm outline-none focus:border-black"
-            />
-            <input
-              type="text"
-              placeholder={t[lang]["hero.search.city"]}
-              className="rounded border border-neutral-300 px-4 py-3 text-sm outline-none focus:border-black sm:w-40"
-            />
-            <button className="rounded bg-black px-6 py-3 text-sm font-medium text-white hover:bg-neutral-800">
-              {t[lang]["hero.search.button"]}
-            </button>
-          </div>
+          <SearchForm lang={lang} />
         </div>
       </section>
 
