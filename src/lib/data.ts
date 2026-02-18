@@ -337,6 +337,11 @@ const areaCodes: Record<string, string> = {
   TI: "91",
 };
 
+export function getProfessionalCount(serviceSlug: string, citySlug: string): number {
+  const seed = `${serviceSlug}-${citySlug}`;
+  return 4 + (hashCode(seed) % 5);
+}
+
 export function getProfessionals(serviceSlug: string, citySlug: string): Professional[] {
   const city = cities.find((c) => c.slug === citySlug);
   if (!city) return [];
@@ -365,7 +370,7 @@ export function getProfessionals(serviceSlug: string, citySlug: string): Profess
     const streetIdx = (h2 + i * 3) % streets[city.lang].length; // different street per professional
     const streetNum = 1 + (h2 % 150);
     const rating = 3.8 + ((h % 13) / 10);
-    const reviewCount = 8 + (h % 230);
+    const reviewCount = 12 + ((h * 7 + h2 * 3) % 280);
     const yearsActive = 2 + (h % 25);
 
     const serviceLocalized = service?.name[city.lang] || serviceSlug;

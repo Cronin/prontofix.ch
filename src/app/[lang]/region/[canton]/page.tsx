@@ -4,7 +4,7 @@ import {
   cantons,
   getCantonBySlug,
   getCitiesByCanton,
-  getProfessionals,
+  getProfessionalCount,
 } from "@/lib/data";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -61,7 +61,7 @@ export default async function CantonPage({
 
   const cantonCities = getCitiesByCanton(canton.code);
   const totalPros = cantonCities.reduce((sum, city) => {
-    return sum + services.reduce((s, svc) => s + getProfessionals(svc.slug, city.slug).length, 0);
+    return sum + services.reduce((s, svc) => s + getProfessionalCount(svc.slug, city.slug), 0);
   }, 0);
 
   const breadcrumb = {
@@ -96,7 +96,7 @@ export default async function CantonPage({
             {t[lang]["canton.title"]} {canton.name[lang]}
           </h1>
           <p className="mt-2 text-neutral-500">
-            {cantonCities.length} {t[lang]["stats.cities"].toLowerCase()} &middot; {totalPros}+ {t[lang]["service.professionals"].toLowerCase()}
+            {cantonCities.length} {t[lang]["stats.cities"]} &middot; {totalPros}+ {t[lang]["service.professionals"]}
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default async function CantonPage({
           <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {cantonCities.map((city) => {
               const proCount = services.reduce(
-                (s, svc) => s + getProfessionals(svc.slug, city.slug).length,
+                (s, svc) => s + getProfessionalCount(svc.slug, city.slug),
                 0
               );
               return (
@@ -126,7 +126,7 @@ export default async function CantonPage({
                     <span className="text-xs text-neutral-400">{city.plz}</span>
                   </div>
                   <div className="mt-1 text-xs text-neutral-500">
-                    {proCount} {t[lang]["service.professionals"].toLowerCase()}
+                    {proCount} {t[lang]["service.professionals"]}
                   </div>
                 </Link>
               );
