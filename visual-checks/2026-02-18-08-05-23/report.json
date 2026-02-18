@@ -1,0 +1,62 @@
+{
+  "outputDir": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23",
+  "timestamp": "2026-02-18-08-05-23",
+  "pages": [
+    {
+      "name": "de-homepage",
+      "url": "https://prontofix-ch.vercel.app/de",
+      "status": "success",
+      "screenshots": {
+        "desktop": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/de-homepage-desktop.png",
+        "mobile": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/de-homepage-mobile.png"
+      },
+      "consoleErrors": [],
+      "metrics": {
+        "loadTimeMs": 8728,
+        "statusCode": 200
+      }
+    },
+    {
+      "name": "de-plumber-zuerich",
+      "url": "https://prontofix-ch.vercel.app/de/plumber/zuerich",
+      "status": "success",
+      "screenshots": {
+        "desktop": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/de-plumber-zuerich-desktop.png",
+        "mobile": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/de-plumber-zuerich-mobile.png"
+      },
+      "consoleErrors": [],
+      "metrics": {
+        "loadTimeMs": 1746,
+        "statusCode": 200
+      }
+    },
+    {
+      "name": "fr-homepage",
+      "url": "https://prontofix-ch.vercel.app/fr",
+      "status": "success",
+      "screenshots": {
+        "desktop": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/fr-homepage-desktop.png",
+        "mobile": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/fr-homepage-mobile.png"
+      },
+      "consoleErrors": [],
+      "metrics": {
+        "loadTimeMs": 6951,
+        "statusCode": 200
+      }
+    },
+    {
+      "name": "it-plumber-lugano",
+      "url": "https://prontofix-ch.vercel.app/it/plumber/lugano",
+      "status": "success",
+      "screenshots": {
+        "desktop": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/it-plumber-lugano-desktop.png",
+        "mobile": "/Users/claudiocronin/websites/sites/prontofix.ch/visual-checks/2026-02-18-08-05-23/it-plumber-lugano-mobile.png"
+      },
+      "consoleErrors": [],
+      "metrics": {
+        "loadTimeMs": 2204,
+        "statusCode": 200
+      }
+    }
+  ]
+}
