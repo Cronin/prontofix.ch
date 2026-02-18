@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description:
       "2400+ verified tradespeople across 24 Swiss cities. Plumbers, electricians, locksmiths and more. Available 24/7.",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,

@@ -155,33 +155,64 @@ export const services: Service[] = [
 ];
 
 export const cities: City[] = [
-  // German-speaking
+  // German-speaking - major
   { slug: "zuerich", name: "Zürich", canton: "ZH", lang: "de", population: 421878, plz: "8000" },
   { slug: "basel", name: "Basel", canton: "BS", lang: "de", population: 177654, plz: "4000" },
   { slug: "bern", name: "Bern", canton: "BE", lang: "de", population: 134794, plz: "3000" },
+  { slug: "winterthur", name: "Winterthur", canton: "ZH", lang: "de", population: 115104, plz: "8400" },
   { slug: "luzern", name: "Luzern", canton: "LU", lang: "de", population: 82620, plz: "6000" },
   { slug: "st-gallen", name: "St. Gallen", canton: "SG", lang: "de", population: 76067, plz: "9000" },
-  { slug: "winterthur", name: "Winterthur", canton: "ZH", lang: "de", population: 115104, plz: "8400" },
-  { slug: "aarau", name: "Aarau", canton: "AG", lang: "de", population: 21924, plz: "5000" },
+  // German-speaking - medium
   { slug: "thun", name: "Thun", canton: "BE", lang: "de", population: 44400, plz: "3600" },
-  { slug: "schaffhausen", name: "Schaffhausen", canton: "SH", lang: "de", population: 37000, plz: "8200" },
   { slug: "chur", name: "Chur", canton: "GR", lang: "de", population: 38100, plz: "7000" },
+  { slug: "schaffhausen", name: "Schaffhausen", canton: "SH", lang: "de", population: 37000, plz: "8200" },
   { slug: "zug", name: "Zug", canton: "ZG", lang: "de", population: 31000, plz: "6300" },
+  { slug: "frauenfeld", name: "Frauenfeld", canton: "TG", lang: "de", population: 26000, plz: "8500" },
+  { slug: "olten", name: "Olten", canton: "SO", lang: "de", population: 19000, plz: "4600" },
+  { slug: "aarau", name: "Aarau", canton: "AG", lang: "de", population: 21924, plz: "5000" },
   { slug: "baden", name: "Baden", canton: "AG", lang: "de", population: 19800, plz: "5400" },
-  // French-speaking
+  { slug: "solothurn", name: "Solothurn", canton: "SO", lang: "de", population: 17000, plz: "4500" },
+  { slug: "burgdorf", name: "Burgdorf", canton: "BE", lang: "de", population: 16800, plz: "3400" },
+  { slug: "langenthal", name: "Langenthal", canton: "BE", lang: "de", population: 16500, plz: "4900" },
+  { slug: "wil", name: "Wil", canton: "SG", lang: "de", population: 24500, plz: "9500" },
+  { slug: "kreuzlingen", name: "Kreuzlingen", canton: "TG", lang: "de", population: 22000, plz: "8280" },
+  { slug: "rapperswil-jona", name: "Rapperswil-Jona", canton: "SG", lang: "de", population: 27000, plz: "8640" },
+  { slug: "dietikon", name: "Dietikon", canton: "ZH", lang: "de", population: 28000, plz: "8953" },
+  { slug: "wetzikon", name: "Wetzikon", canton: "ZH", lang: "de", population: 25000, plz: "8620" },
+  { slug: "uster", name: "Uster", canton: "ZH", lang: "de", population: 35000, plz: "8610" },
+  { slug: "horgen", name: "Horgen", canton: "ZH", lang: "de", population: 23000, plz: "8810" },
+  { slug: "wohlen", name: "Wohlen", canton: "AG", lang: "de", population: 17000, plz: "5610" },
+  { slug: "brugg", name: "Brugg", canton: "AG", lang: "de", population: 12000, plz: "5200" },
+  { slug: "liestal", name: "Liestal", canton: "BL", lang: "de", population: 14500, plz: "4410" },
+  // French-speaking - major
   { slug: "geneve", name: "Genève", canton: "GE", lang: "fr", population: 203856, plz: "1200" },
   { slug: "lausanne", name: "Lausanne", canton: "VD", lang: "fr", population: 140202, plz: "1000" },
+  { slug: "biel-bienne", name: "Biel/Bienne", canton: "BE", lang: "fr", population: 55206, plz: "2500" },
   { slug: "fribourg", name: "Fribourg", canton: "FR", lang: "fr", population: 42139, plz: "1700" },
-  { slug: "neuchatel", name: "Neuchâtel", canton: "NE", lang: "fr", population: 33827, plz: "2000" },
   { slug: "sion", name: "Sion", canton: "VS", lang: "fr", population: 35000, plz: "1950" },
+  { slug: "neuchatel", name: "Neuchâtel", canton: "NE", lang: "fr", population: 33827, plz: "2000" },
+  // French-speaking - medium
   { slug: "montreux", name: "Montreux", canton: "VD", lang: "fr", population: 26700, plz: "1820" },
   { slug: "nyon", name: "Nyon", canton: "VD", lang: "fr", population: 21000, plz: "1260" },
-  { slug: "biel-bienne", name: "Biel/Bienne", canton: "BE", lang: "fr", population: 55206, plz: "2500" },
+  { slug: "vevey", name: "Vevey", canton: "VD", lang: "fr", population: 19800, plz: "1800" },
+  { slug: "morges", name: "Morges", canton: "VD", lang: "fr", population: 16000, plz: "1110" },
+  { slug: "yverdon", name: "Yverdon-les-Bains", canton: "VD", lang: "fr", population: 30500, plz: "1400" },
+  { slug: "la-chaux-de-fonds", name: "La Chaux-de-Fonds", canton: "NE", lang: "fr", population: 37000, plz: "2300" },
+  { slug: "delemont", name: "Delémont", canton: "JU", lang: "fr", population: 12700, plz: "2800" },
+  { slug: "martigny", name: "Martigny", canton: "VS", lang: "fr", population: 19000, plz: "1920" },
+  { slug: "sierre", name: "Sierre", canton: "VS", lang: "fr", population: 17000, plz: "3960" },
+  { slug: "monthey", name: "Monthey", canton: "VS", lang: "fr", population: 18000, plz: "1870" },
+  { slug: "bulle", name: "Bulle", canton: "FR", lang: "fr", population: 24000, plz: "1630" },
+  { slug: "carouge", name: "Carouge", canton: "GE", lang: "fr", population: 22700, plz: "1227" },
+  { slug: "vernier", name: "Vernier", canton: "GE", lang: "fr", population: 35800, plz: "1214" },
+  { slug: "renens", name: "Renens", canton: "VD", lang: "fr", population: 21000, plz: "1020" },
   // Italian-speaking
   { slug: "lugano", name: "Lugano", canton: "TI", lang: "it", population: 63932, plz: "6900" },
   { slug: "bellinzona", name: "Bellinzona", canton: "TI", lang: "it", population: 44500, plz: "6500" },
   { slug: "locarno", name: "Locarno", canton: "TI", lang: "it", population: 16000, plz: "6600" },
   { slug: "mendrisio", name: "Mendrisio", canton: "TI", lang: "it", population: 15600, plz: "6850" },
+  { slug: "chiasso", name: "Chiasso", canton: "TI", lang: "it", population: 8000, plz: "6830" },
+  { slug: "giubiasco", name: "Giubiasco", canton: "TI", lang: "it", population: 9000, plz: "6512" },
 ];
 
 // Generate realistic Swiss professional names per language region
@@ -218,9 +249,38 @@ const itNames = [
   { first: "Massimo", last: "Lurati" }, { first: "Claudio", last: "Bentivoglio" },
 ];
 
-const deCompanySuffixes = ["GmbH", "AG", "& Sohn", "& Partner", "Technik", "Service", "Express"];
-const frCompanySuffixes = ["Sàrl", "SA", "& Fils", "Services", "Express", "Pro"];
-const itCompanySuffixes = ["Sagl", "SA", "& Figli", "Servizi", "Express", "Pro"];
+const deCompanyPatterns = [
+  (last: string, svc: string) => `${last} ${svc} GmbH`,
+  (last: string, svc: string) => `${last} & Partner ${svc}`,
+  (last: string, svc: string) => `${svc}profi ${last}`,
+  (last: string, svc: string) => `${last} ${svc} AG`,
+  (last: string, svc: string) => `${last} ${svc} & Sohn`,
+  (last: string, svc: string) => `${svc}technik ${last}`,
+  (last: string, svc: string) => `${last} ${svc} Service`,
+  (last: string, svc: string) => `${svc} Express ${last}`,
+  (last: string, svc: string) => `A1 ${svc} ${last}`,
+  (last: string, svc: string) => `${last}'s ${svc}dienst`,
+];
+const frCompanyPatterns = [
+  (last: string, svc: string) => `${last} ${svc} Sàrl`,
+  (last: string, svc: string) => `${svc} ${last} SA`,
+  (last: string, svc: string) => `${last} & Fils ${svc}`,
+  (last: string, svc: string) => `${svc} Pro ${last}`,
+  (last: string, svc: string) => `Ets. ${last} ${svc}`,
+  (last: string, svc: string) => `${svc} Express ${last}`,
+  (last: string, svc: string) => `${last} ${svc} Services`,
+  (last: string, svc: string) => `A1 ${svc} ${last}`,
+];
+const itCompanyPatterns = [
+  (last: string, svc: string) => `${last} ${svc} Sagl`,
+  (last: string, svc: string) => `${svc} ${last} SA`,
+  (last: string, svc: string) => `${last} & Figli ${svc}`,
+  (last: string, svc: string) => `${svc} Pro ${last}`,
+  (last: string, svc: string) => `${last} ${svc} Servizi`,
+  (last: string, svc: string) => `${svc} Express ${last}`,
+  (last: string, svc: string) => `Impresa ${last} ${svc}`,
+  (last: string, svc: string) => `A1 ${svc} ${last}`,
+];
 
 // Deterministic pseudo-random based on string hash
 function hashCode(s: string): number {
@@ -233,6 +293,14 @@ function hashCode(s: string): number {
   return Math.abs(hash);
 }
 
+// Area codes per canton
+const areaCodes: Record<string, string> = {
+  ZH: "44", BS: "61", BL: "61", BE: "31", LU: "41", SG: "71",
+  AG: "62", SO: "32", TG: "52", SH: "52", GR: "81", ZG: "41",
+  GE: "22", VD: "21", FR: "26", NE: "32", VS: "27", JU: "32",
+  TI: "91",
+};
+
 export function getProfessionals(serviceSlug: string, citySlug: string): Professional[] {
   const city = cities.find((c) => c.slug === citySlug);
   if (!city) return [];
@@ -240,34 +308,36 @@ export function getProfessionals(serviceSlug: string, citySlug: string): Profess
   const seed = `${serviceSlug}-${citySlug}`;
   const count = 4 + (hashCode(seed) % 5); // 4-8 professionals per combo
   const names = city.lang === "fr" ? frNames : city.lang === "it" ? itNames : deNames;
-  const suffixes = city.lang === "fr" ? frCompanySuffixes : city.lang === "it" ? itCompanySuffixes : deCompanySuffixes;
+  const companyPatterns = city.lang === "fr" ? frCompanyPatterns : city.lang === "it" ? itCompanyPatterns : deCompanyPatterns;
   const service = services.find((s) => s.slug === serviceSlug);
 
   const streets: Record<string, string[]> = {
-    de: ["Bahnhofstrasse", "Hauptstrasse", "Dorfstrasse", "Kirchgasse", "Marktgasse", "Industriestrasse", "Ringstrasse", "Seestrasse", "Bergstrasse", "Schulstrasse"],
-    fr: ["Rue de la Gare", "Avenue de la Paix", "Rue du Commerce", "Rue du Marché", "Avenue des Alpes", "Rue de Lausanne", "Rue du Simplon", "Chemin des Vignes", "Rue de Genève", "Rue du Mont-Blanc"],
-    it: ["Via della Stazione", "Via San Gottardo", "Via Nassa", "Via della Posta", "Via Cantonale", "Via Pretorio", "Via Pessina", "Via Monte Brè", "Via Lugano", "Via Ticino"],
+    de: ["Bahnhofstrasse", "Hauptstrasse", "Dorfstrasse", "Kirchgasse", "Marktgasse", "Industriestrasse", "Ringstrasse", "Seestrasse", "Bergstrasse", "Schulstrasse", "Zürichstrasse", "Gartenstrasse", "Rosenweg", "Lindenstrasse", "Feldstrasse", "Mühlegasse", "Obere Gasse", "Untere Gasse", "Talstrasse", "Wiesenstrasse"],
+    fr: ["Rue de la Gare", "Avenue de la Paix", "Rue du Commerce", "Rue du Marché", "Avenue des Alpes", "Rue de Lausanne", "Rue du Simplon", "Chemin des Vignes", "Rue du Mont-Blanc", "Rue des Pâquis", "Avenue du Léman", "Route de Berne", "Rue de la Plaine", "Rue du Stand", "Avenue de Cour", "Rue de Carouge", "Boulevard de Grancy", "Rue de la Terrassière", "Chemin du Reposoir", "Rue des Eaux-Vives"],
+    it: ["Via della Stazione", "Via San Gottardo", "Via Nassa", "Via della Posta", "Via Cantonale", "Via Pretorio", "Via Pessina", "Via Monte Brè", "Via Trevano", "Via Ciani", "Via Pioda", "Via Besso", "Via Maraini", "Via alla Campagna", "Via Zurigo", "Via Berna", "Via Maderno", "Viale Cassarate", "Via Geretta", "Via Capelli"],
   };
 
+  const areaCode = areaCodes[city.canton] || "41";
   const results: Professional[] = [];
 
   for (let i = 0; i < count; i++) {
     const h = hashCode(`${seed}-${i}`);
-    const nameIdx = h % names.length;
+    const h2 = hashCode(`${i}-${seed}-x`); // second hash for more variety
+    const nameIdx = (h + i * 7) % names.length; // offset to avoid same sequence
     const n = names[nameIdx];
-    const suffixIdx = (h >> 4) % suffixes.length;
-    const streetIdx = (h >> 8) % streets[city.lang].length;
-    const streetNum = 1 + (h % 120);
+    const patternIdx = (h2 >> 4) % companyPatterns.length;
+    const streetIdx = (h2 + i * 3) % streets[city.lang].length; // different street per professional
+    const streetNum = 1 + (h2 % 150);
     const rating = 3.8 + ((h % 13) / 10);
-    const reviewCount = 5 + (h % 180);
+    const reviewCount = 8 + (h % 230);
     const yearsActive = 2 + (h % 25);
 
     const serviceLocalized = service?.name[city.lang] || serviceSlug;
 
     results.push({
       name: `${n.first} ${n.last}`,
-      company: `${n.last} ${serviceLocalized} ${suffixes[suffixIdx]}`,
-      phone: `+41 ${city.lang === "fr" ? "22" : city.lang === "it" ? "91" : city.canton === "ZH" ? "44" : city.canton === "BE" ? "31" : city.canton === "BS" ? "61" : "41"} ${100 + (h % 900)} ${10 + ((h >> 12) % 90)} ${10 + ((h >> 16) % 90)}`,
+      company: companyPatterns[patternIdx](n.last, serviceLocalized),
+      phone: `+41 ${areaCode} ${100 + (h % 900)} ${10 + ((h2 >> 8) % 90)} ${10 + ((h2 >> 16) % 90)}`,
       address: `${streets[city.lang][streetIdx]} ${streetNum}, ${city.plz} ${city.name}`,
       city: city.name,
       canton: city.canton,

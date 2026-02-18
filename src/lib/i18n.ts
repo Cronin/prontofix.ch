@@ -59,6 +59,13 @@ export const t: Record<Locale, Record<string, string>> = {
     "stats.reviews": "Verifizierte Bewertungen",
     "stats.avgRating": "Durchschnittsbewertung",
     "stats.cities": "Abgedeckte Städte",
+    // Blog
+    "blog.title": "Ratgeber",
+    "blog.subtitle": "Tipps und Informationen rund um Handwerkerleistungen in der Schweiz",
+    "blog.readMore": "Weiterlesen",
+    "blog.readTime": "Min. Lesezeit",
+    "blog.backToList": "Alle Artikel",
+    "blog.relatedServices": "Verwandte Dienstleistungen",
   },
   fr: {
     "nav.services": "Services",
@@ -106,6 +113,12 @@ export const t: Record<Locale, Record<string, string>> = {
     "stats.reviews": "Avis vérifiés",
     "stats.avgRating": "Note moyenne",
     "stats.cities": "Villes couvertes",
+    "blog.title": "Guide",
+    "blog.subtitle": "Conseils et informations sur les services artisanaux en Suisse",
+    "blog.readMore": "Lire la suite",
+    "blog.readTime": "min de lecture",
+    "blog.backToList": "Tous les articles",
+    "blog.relatedServices": "Services associés",
   },
   it: {
     "nav.services": "Servizi",
@@ -153,5 +166,11 @@ export const t: Record<Locale, Record<string, string>> = {
     "stats.reviews": "Recensioni verificate",
     "stats.avgRating": "Valutazione media",
     "stats.cities": "Città coperte",
+    "blog.title": "Guida",
+    "blog.subtitle": "Consigli e informazioni sui servizi artigianali in Svizzera",
+    "blog.readMore": "Leggi tutto",
+    "blog.readTime": "min di lettura",
+    "blog.backToList": "Tutti gli articoli",
+    "blog.relatedServices": "Servizi correlati",
   },
 };
